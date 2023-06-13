@@ -20,8 +20,8 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [(https://github.com/Kofiastro/order-summary-component)]
-- Live Site URL:[(https://sensational-tiramisu-f6a9b0.netlify.app/)]
+- Solution URL: [(https://github.com/Kofiastro/Chat-app-CSS-illustration)]
+- Live Site URL:[(https://spiffy-peony-412440.netlify.app/)]
 
 ## My process
 Using Tailwindcss i have been able to work on designs much faster and i want to learn more by working on more projects at frontendmentor to help me be good at it.
