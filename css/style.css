@@ -555,6 +555,86 @@ video {
   top: 5rem;
 }
 
+.right-72 {
+  right: 18rem;
+}
+
+.-right-72 {
+  right: -18rem;
+}
+
+.-bottom-80 {
+  bottom: -20rem;
+}
+
+.-right-7 {
+  right: -1.75rem;
+}
+
+.-right-52 {
+  right: -13rem;
+}
+
+.-right-36 {
+  right: -9rem;
+}
+
+.right-36 {
+  right: 9rem;
+}
+
+.bottom-80 {
+  bottom: 20rem;
+}
+
+.bottom-36 {
+  bottom: 9rem;
+}
+
+.bottom-64 {
+  bottom: 16rem;
+}
+
+.-bottom-64 {
+  bottom: -16rem;
+}
+
+.-bottom-52 {
+  bottom: -13rem;
+}
+
+.right-28 {
+  right: 7rem;
+}
+
+.right-16 {
+  right: 4rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.right-1 {
+  right: 0.25rem;
+}
+
+.right-1\.5 {
+  right: 0.375rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-0\.5 {
+  right: 0.125rem;
+}
+
 .mx-12 {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -687,6 +767,10 @@ video {
 
 .h-5 {
   height: 1.25rem;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-1\/2 {
@@ -863,12 +947,21 @@ video {
   border-top-right-radius: 1.5rem;
 }
 
+.rounded-t-full {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
 .rounded-bl-lg {
   border-bottom-left-radius: 0.5rem;
 }
 
 .rounded-tl-xl {
   border-top-left-radius: 0.75rem;
+}
+
+.rounded-tl-full {
+  border-top-left-radius: 9999px;
 }
 
 .border {
@@ -924,8 +1017,18 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-LightGrayishViolet_appBackrnd {
+  --tw-gradient-from: hsl(270, 20%, 96%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(270 20% 96% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-LightViolet {
   --tw-gradient-to: hsl(264, 100%, 61%) var(--tw-gradient-to-position);
+}
+
+.to-LightMagenta {
+  --tw-gradient-to: hsl(293, 100%, 63%) var(--tw-gradient-to-position);
 }
 
 .p-0 {
@@ -989,6 +1092,36 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-56 {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.py-60 {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.py-80 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .pb-2 {
@@ -1127,6 +1260,10 @@ video {
 
 .opacity-100 {
   opacity: 1;
+}
+
+.opacity-10 {
+  opacity: 0.1;
 }
 
 .shadow {
