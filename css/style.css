@@ -1330,6 +1330,16 @@ video {
   color: hsl(270 7% 64% / var(--tw-text-opacity));
 }
 
+.text-Bubble {
+  --tw-text-opacity: 1;
+  color: hsl(276 41% 93% / var(--tw-text-opacity));
+}
+
+.text-DesaturatedDarkViolet {
+  --tw-text-opacity: 1;
+  color: hsl(271 15% 43% / var(--tw-text-opacity));
+}
+
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1945,6 +1955,16 @@ video {
     padding-right: 11rem;
   }
 
+  .md\:py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  .md\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -1959,6 +1979,11 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .md\:font-semibold {
     font-weight: 600;
   }
@@ -1969,6 +1994,10 @@ video {
 
   .md\:font-bold {
     font-weight: 700;
+  }
+
+  .md\:font-thin {
+    font-weight: 100;
   }
 
   .md\:tracking-normal {
